@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="advanced-search.css">
+    <title>Google Advanced Search</title>
+</head>
+<body>
+    <header>
+        <div class="button-box">
+            <div>
+                <a href="file:///C:/Users/prana/OneDrive/Desktop/challenges/MonthOfMern_Challenge/Week-0-Challenge/webpages/google%20search.html">
+                    <button>Search</button>
+                </a>                
+            </div>
+            <div>
+                <a href="file:///C:/Users/prana/OneDrive/Desktop/challenges/MonthOfMern_Challenge/Week-0-Challenge/webpages/images-search.html">
+                    <button>Images</button>
+                </a>                
+            </div>
+        </div>  
+        <div class="head-1">
+            <img class="img-1" src="google_PNG.png" alt="google">
+        </div>
+        <div class="appbar">
+            Advanced Search
+        </div>
+        <div class="break"></div>
+    </header>
+    <main>
+        <div class="container">
+
+            <form action="https://google.com/search">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">all these words:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="as_q">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">this exact word or phrase:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="as_epq">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">any of these words:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="as_oq">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">none of these words:</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="as_eq">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <input class="sub-btn" type="submit" value="Advanced Search">
+                </div>
+
+            </form>
+
+        </div>        
+    </main>   
+</body>
+</html>
